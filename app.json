@@ -1,14 +1,13 @@
 {
   "expo": {
-    "name": "expo-coingecko",
-    "slug": "expo-coingecko",
-    "version": "1.0.0",
+    "name": "Coin Consult",
+    "slug": "coin-consult",
+    "version": "1.0.1",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/custom-assets/custom-icon.png",
     "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "image": "./assets/custom-assets/custom-icon.png",
+      "resizeMode": "contain"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -21,9 +20,9 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "foregroundImage": "./assets/custom-assets/custom-icon.png"
+      },
+      "package": "com.afelro97.coinconsult"
     },
     "web": {
       "favicon": "./assets/favicon.png"
